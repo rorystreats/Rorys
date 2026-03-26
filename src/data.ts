@@ -19,7 +19,7 @@ export const menu = {
     { name: "Matcha", price: 590, desc: "Earthy, premium matcha layers." }
   ],
   seasonal: [
-    { name: "Mango Cheesecake", price: 590, desc: "Fresh seasonal mangoes." },
+    { name: "Mango Cheesecake", price: 390, desc: "Fresh seasonal mangoes." },
     { name: "Mango Tiramisu", price: 590, desc: "A tropical twist on the classic." }
   ],
   tins: [
@@ -36,7 +36,13 @@ export const menu = {
 export const testimonials = [
   { name: "Aarav M.", text: "The thickest, gooiest cookies I've ever had in Pune. The hazelnut stuffed one is literally a warm hug." },
   { name: "Priya S.", text: "Ordered the Tiramisu Cheesecake tin for a party and it was the star of the night. Absolutely luxurious." },
-  { name: "Rohan K.", text: "Finally, authentic NYC-style cookies in India! The walnut chocolate chip is perfection." }
+  { name: "Rohan K.", text: "Finally, authentic NYC-style cookies in India! The walnut chocolate chip is perfection." },
+  { name: "Neha T.", text: "The Biscoff cheesecake is one of the best that I have ever had. So creamy and perfectly balanced!" },
+  { name: "Siddharth J.", text: "Got a box of assorted cookies for a get-together. The packaging is gorgeous, and the cookies were gone in minutes!" },
+  { name: "Ananya P.", text: "That Biscoff Macadamia cookie is unreal. The crunch from the nuts and the gooey center... I'm completely obsessed." },
+  { name: "Vikram D.", text: "The Cashew Truffle was one of the best gifts that I gave in Diwali to all of my friends and family, and they absolutely loved it. Cannot wait for you to launch them again for the next festival." },
+  { name: "Sneha R.", text: "Best cookies in Pune, hands down. The Midnight Cocoa Chunk is my weekly treat now." },
+  { name: "Kabir M.", text: "I've tried every bakery in town, but Rory's hits different. So thick, gooey, and perfectly baked every single time." }
 ];
 
 export const WHATSAPP_NUMBER = "918208767902"; // Placeholder, user will update
