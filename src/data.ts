@@ -16,7 +16,8 @@ export const menu = {
   tiramisu: [
     { name: "Classic", price: 500, desc: "Authentic espresso-soaked ladyfingers." },
     { name: "Cocoa", price: 500, desc: "Rich cocoa dusted perfection." },
-    { name: "Matcha", price: 590, desc: "Earthy, premium matcha layers." }
+    { name: "Matcha", price: 590, desc: "Earthy, premium matcha layers." },
+    { name: "Biscoff", price: 590, desc: "Caramel meets easpresso." }
   ],
   seasonal: [
     { name: "Mango Cheesecake", price: 390, desc: "Fresh seasonal mangoes." },
