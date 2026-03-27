@@ -337,7 +337,7 @@ export default function App() {
             <div className="order-1 md:order-2">
               <h2 className="text-4xl md:text-5xl font-serif mb-6">Meet Riya.</h2>
               <p className="text-lg text-[#2C1818]/80 leading-relaxed mb-6">
-                 The founder behind Rory’s, and the indulgence that keeps you keep coming back
+                 The founder behind Rory’s, and the indulgence that keeps you coming back
              </p>
                 <p className="text-lg text-[#2C1818]/80 leading-relaxed mb-6">
                  For as long as I can remember, baking has been something deeply personal to me. It’s always felt soulful, a quiet, grounding process that I’ve returned to time and again since childhood. Over the years, what began as a love for creating desserts slowly shaped into a dream of building something of my own; a space that felt simple, thoughtful, and special in its own way. 
