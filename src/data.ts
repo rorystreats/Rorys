@@ -1,10 +1,10 @@
 export const menu = {
-  cookie: [
+  cookies: [
     { name: "Double Chocolate Chip", price: 190, desc: "Thick, chunky, NYC-style classic." },
     { name: "The Midnight Cocoa Chunk", price: 190, desc: "An overload of three premium chocolates." },
     { name: "Walnut Chocolate Chip", price: 220, desc: "The iconic NYC-style walnut crunch." },
-    { name: "The Hazelnut Molten Core", price: 220, desc: "Gooey Nutella lava centre." },
-    { name: "The Golden Macadamia Dream", price: 260, desc: "Caramelized Biscoff with buttery macadamias and rich white chocolate." },
+    { name: "The Hazelnut Molten Core", price: 220, desc: "Gooey Nutella lava center." },
+    { name: "The Golden Macadamia Dream", price: 260, desc: "Caramelized Biscoff with buttery macadamias." },
     { name: "Kinder Bueno", price: 260, desc: "Stuffed with creamy Kinder goodness." }
   ],
   cheesecakes: [
@@ -16,11 +16,10 @@ export const menu = {
   tiramisu: [
     { name: "Classic", price: 500, desc: "Authentic espresso-soaked ladyfingers." },
     { name: "Cocoa", price: 500, desc: "Rich cocoa dusted perfection." },
-    { name: "Matcha", price: 590, desc: "Earthy, premium matcha layers." },
-    { name: "Biscoff", price: 590, desc: "Rich caramel meets bold espresso." }
+    { name: "Matcha", price: 590, desc: "Earthy, premium matcha layers." }
   ],
   seasonal: [
-    { name: "Mango Cheesecake", price: 390, desc: "Fresh seasonal mangoes." },
+    { name: "Mango Cheesecake", price: 590, desc: "Fresh seasonal mangoes." },
     { name: "Mango Tiramisu", price: 590, desc: "A tropical twist on the classic." }
   ],
   tins: [
