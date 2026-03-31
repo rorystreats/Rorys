@@ -1,5 +1,5 @@
 export const menu = {
-  cookie (Approx 110gm each): [
+  cookie: [
     { name: "Double Chocolate Chip", price: 190, desc: "Thick, chunky, NYC-style classic." },
     { name: "The Midnight Cocoa Chunk", price: 190, desc: "An overload of three premium chocolates." },
     { name: "Walnut Chocolate Chip", price: 220, desc: "The iconic NYC-style walnut crunch." },
