@@ -24,7 +24,6 @@ export default function App() {
     { id: 'cheesecakes', label: 'Cheesecakes' },
     { id: 'tiramisu', label: 'Tiramisu' },
     { id: 'tins', label: 'Golden Tins' },
-    { id: 'seasonal', label: 'Seasonal' },
     { id: 'festive', label: 'Festive & Custom' },
   ];
 
