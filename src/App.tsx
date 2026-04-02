@@ -23,7 +23,7 @@ export default function App() {
     { id: 'cookies', label: 'NYC-Style Cookies' },
     { id: 'cheesecakes', label: 'Cheesecakes' },
     { id: 'tiramisu', label: 'Tiramisu' },
-    { id: 'tins', label: 'Golden Tins' },
+    { id: 'tins', label: 'Manhattan Size' },
     { id: 'festive', label: 'Festive & Custom' },
   ];
 
