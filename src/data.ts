@@ -9,16 +9,16 @@ export const menu = {
   ],
   cheesecakes: [
     { name: "Oreo", price: 399, desc: "Classic cookies and cream in a tub." },
-    { name: "Hazelnut", price: 399, desc: "Decadent roasted hazelnut blend." },
+    { name: "Hazelnut", price: 399, desc: "Decadent & rich hazelnut overload." },
     { name: "Biscoff", price: 399, desc: "The ultimate lotus biscoff experience." }
   ],
   tiramisu: [
-    { name: "Classic Tiramisu", price: 499, desc: "Authentic espresso-soaked ladyfingers." },
+    { name: "Classic Tiramisu", price: 499, desc: "Authentic espresso-soaked ladyfingers with creamy light mascarpone." },
     { name: "Biscoff Misu", price: 599, desc: "Caramel & espresso layers in one." }
   ],
   tins: [
     { name: "Classic Tiramisu Tin", price: 1299, desc: "Family-sized classic tiramisu." },
-    { name: "Classic Cheesecake Tin", price: 1299, desc: "Rich, creamy cheesecake for sharing." },
+    { name: "Classic Cheesecake Tin", price: 1299, desc: "Date night for two." },
     { name: "Tiramisu Cheesecake Tin", price: 1499, desc: "The ultimate dessert fusion." }
   ],
   festive: [
