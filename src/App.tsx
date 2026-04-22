@@ -160,9 +160,9 @@ export default function App() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "The Midnight Cocoa Chunk", desc: "Intense, dark, and unapologetically rich." },
-              { title: "The Hazelnut Molten Core", desc: "A warm hug of gooey Nutella lava." },
-              { title: "The Golden Macadamia Dream", desc: "Caramelized Biscoff meets buttery crunch." }
+              { title: "The Black Sheep", desc: "Intense, dark, and unapologetically rich." },
+              { title: "The Godfather", desc: "A warm hug of gooey Nutella lava." },
+              { title: "Golden Child Gone Rogue", desc: "Caramelized Biscoff meets buttery crunch." }
             ].map((item, i) => (
               <div key={i} className="bg-[#FDFBF7] p-8 rounded-2xl text-center border border-[#6B1111]/10 hover:border-[#6B1111]/30 transition-colors">
                 <Heart className="mx-auto text-[#6B1111] mb-6" size={32} strokeWidth={1.5} />
