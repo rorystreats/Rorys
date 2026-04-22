@@ -118,7 +118,7 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#2C1818]/40 to-transparent"></div>
             </motion.div>
 
-            <h1 className="text-5xl md:text-7xl font-serif font-medium leading-tight mb-8 max-w-4xl">
+            <h1 className="text-4xl md:text-7xl font-serif font-medium leading-tight mb-8 max-w-4xl">
               Thick, gooey, and unapologetically rich.
             </h1>
             <p className="text-lg md:text-xl text-[#2C1818]/80 mb-10 max-w-2xl leading-relaxed">
@@ -211,11 +211,20 @@ export default function App() {
                   transition={{ duration: 0.3, delay: idx * 0.05 }}
                   className="flex justify-between items-start group border-b border-[#6B1111]/10 pb-6"
                 >
-                  <div className="pr-8">
-                    <h3 className="font-serif text-xl mb-2 group-hover:text-[#6B1111] transition-colors">{item.name}</h3>
-                    <p className="text-[#2C1818]/70 text-sm leading-relaxed">{item.desc}</p>
+                  <div className="flex gap-4 pr-4 md:pr-8 flex-1">
+                    {/* @ts-ignore - 'image' is optional */}
+                    {item.image && (
+                      <div className="w-20 h-20 md:w-24 md:h-24 shrink-0 rounded-xl overflow-hidden border border-[#F5EFE6]">
+                        {/* @ts-ignore */}
+                        <img src={item.image} alt={item.name} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" />
+                      </div>
+                    )}
+                    <div>
+                      <h3 className="font-serif text-xl mb-2 group-hover:text-[#6B1111] transition-colors">{item.name}</h3>
+                      <p className="text-[#2C1818]/70 text-sm leading-relaxed">{item.desc}</p>
+                    </div>
                   </div>
-                  <div className="flex flex-col items-end gap-3">
+                  <div className="flex flex-col items-end gap-3 shrink-0">
                     <span className="font-serif text-lg">₹{item.price}</span>
                     <a 
                       href={generateWhatsAppLink(item.name)}
@@ -297,7 +306,7 @@ export default function App() {
           </div>
         </div>
       </section>
-              
+
       {/* Testimonials */}
       <section className="py-24 bg-[#6B1111] text-[#FDFBF7]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
