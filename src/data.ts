@@ -1,11 +1,11 @@
 export const menu = {
   cookies: [
-    { name: "Grandma's Illegal Recipe", price: 199, desc: "Classic dough, loaded with rich chunks." },
+    { name: "Grandma's Illegal Recipe", price: 199, desc: "Classic dough, loaded with rich chunks.", image: "/double.jpg" },
     { name: "The Black Sheep", price: 199, desc: "Triple the chocolates, triple the threat.", image: "/triple.jpg" },
     { name: "Family Legacy", price: 199, desc: "Buttery walnuts with dark chocolate chunks.", image: "/walnut.jpg" },
-    { name: "The Godfather", price: 279, desc: "Nutella stuffed center, crunchy hazelnut bites." },
+    { name: "The Godfather", price: 279, desc: "Nutella stuffed center, crunchy hazelnut bites.", image: "/hazelnut.jpg" },
     { name: "Golden Child Gone Rogue", price: 279, desc: "Caramelised Biscoff with buttery macadamias.", image: "/goldenchildgonerogue.jpg" },
-    { name: "Soft Boy Era", price: 279, desc: "Stuffed with creamy Kinder goodness." }
+    { name: "Soft Boy Era", price: 279, desc: "Stuffed with creamy Kinder goodness.", image: "/kinder.jpg" }
   ],
   cheesecakes: [
     { name: "The Favourite Cousin", price: 399, desc: "Classic cookies and cream in a tub." },
