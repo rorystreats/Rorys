@@ -94,21 +94,21 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { 
-                title: "The Midnight Cocoa Chunk", 
+                title: "The Black Sheep", 
                 desc: "An overload of three premium chocolates.",
                 slug: "the-midnight-cocoa-chunk",
                 img: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800"
               },
               { 
-                title: "The Hazelnut Molten Core", 
+                title: "The Godfather", 
                 desc: "Gooey Nutella lava center.",
                 slug: "the-hazelnut-molten-core",
-                img: "https://images.unsplash.com/photo-1590080875510-1ab21be55e1e?w=800"
+                img: "/hazelnut.jpg"
               },
               { 
-                title: "The Golden Macadamia Dream", 
+                title: "Golden Child Gone Rogue", 
                 desc: "Caramelized Biscoff with buttery macadamias.",
-                slug: "the-golden-macadamia-dream",
+                slug: "golden-macadamia-dream",
                 img: "/biscoff.JPG"
               }
             ].map((item, i) => (

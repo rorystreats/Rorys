@@ -19,28 +19,29 @@ const chilledShipping = "We'll deliver this across Pune perfectly chilled, becau
 export const menu: Record<string, MenuItem[]> = {
   cookies: [
     { 
-      slug: "grandma's-illegal-recipe", 
-      name: "Grandma's Illegal Recipe", 
+      slug: "double-chocolate-chip", 
+      name: "Grandma's Illegitimate Recipe", 
       price: 190, 
-      desc: "Classic dough, loaded with rich chunks.",
+      desc: "Thick, chunky, NYC-style classic.",
+      image: "/double.jpg",
       careTitle: "Cookie survival guide",
       careInstructions: cookieCare,
       shippingInfo: standardShipping,
-      gallery: ["/double.jpg"]
+      gallery: ["https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800", "https://images.unsplash.com/photo-1590080875510-1ab21be55e1e?w=800", "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800"]
     },
     { 
-      slug: "the-black-sheep", 
+      slug: "the-midnight-cocoa-chunk", 
       name: "The Black Sheep", 
       price: 190, 
-      desc: "Triple the chocolates, triple the threat.",
+      desc: "An overload of three premium chocolates.",
       careTitle: "Cookie survival guide",
       careInstructions: cookieCare,
       shippingInfo: standardShipping,
-      gallery: ["/triple.jpg"]
+      gallery: ["https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800", "https://images.unsplash.com/photo-1590080875510-1ab21be55e1e?w=800", "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800"]
     },
     { 
       slug: "walnut-chocolate-chip", 
-      name: "Walnut Chocolate Chip", 
+      name: "Family Legacy", 
       price: 220, 
       desc: "The iconic NYC-style walnut crunch.",
       careTitle: "Cookie survival guide",
@@ -50,17 +51,18 @@ export const menu: Record<string, MenuItem[]> = {
     },
     { 
       slug: "the-hazelnut-molten-core", 
-      name: "The Hazelnut Molten Core", 
+      name: "The Godfather", 
       price: 220, 
       desc: "Gooey Nutella lava center.",
+      image: "/hazelnut.jpg",
       careTitle: "Cookie survival guide",
       careInstructions: cookieCare,
       shippingInfo: standardShipping,
-      gallery: ["https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800", "https://images.unsplash.com/photo-1590080875510-1ab21be55e1e?w=800", "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800"]
+      gallery: ["/nutella.jpg", "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800", "https://images.unsplash.com/photo-1590080875510-1ab21be55e1e?w=800", "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800"]
     },
     { 
-      slug: "the-golden-macadamia-dream", 
-      name: "The Golden Macadamia Dream", 
+      slug: "golden-macadamia-dream", 
+      name: "Golden Child Gone Rogue", 
       price: 260, 
       desc: "Caramelized Biscoff with buttery macadamias.", 
       image: "/biscoff.JPG",
@@ -71,9 +73,10 @@ export const menu: Record<string, MenuItem[]> = {
     },
     { 
       slug: "kinder-bueno", 
-      name: "Kinder Bueno", 
+      name: "Soft Boy Era", 
       price: 260, 
       desc: "Stuffed with creamy Kinder goodness.",
+      image: "/kinder.jpg",
       careTitle: "Cookie survival guide",
       careInstructions: cookieCare,
       shippingInfo: standardShipping,
@@ -81,15 +84,13 @@ export const menu: Record<string, MenuItem[]> = {
     }
   ],
   cheesecakes: [
-    { slug: "oreo-cheesecake", name: "Oreo", price: 390, desc: "Classic cookies and cream in a tub.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping },
-    { slug: "blueberry-cheesecake", name: "Blueberry", price: 390, desc: "Rich cream cheese with wild blueberry compote.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping },
-    { slug: "hazelnut-cheesecake", name: "Hazelnut", price: 390, desc: "Decadent roasted hazelnut blend.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping },
-    { slug: "biscoff-cheesecake", name: "Biscoff", price: 390, desc: "The ultimate lotus biscoff experience.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping }
+    { slug: "oreo-cheesecake", name: "The Favorite Cousin", price: 390, desc: "Classic cookies and cream in a tub.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping },
+    { slug: "hazelnut-cheesecake", name: "The Heir", price: 390, desc: "Decadent roasted hazelnut blend.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping },
+    { slug: "biscoff-cheesecake", name: "The Rich Aunt", price: 390, desc: "The ultimate lotus biscoff experience.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping }
   ],
   tiramisu: [
-    { slug: "classic-tiramisu", name: "Classic", price: 500, desc: "Authentic espresso-soaked ladyfingers.", careInstructions: "Keep refrigerated. Consume within 2 days.", shippingInfo: chilledShipping },
-    { slug: "cocoa-tiramisu", name: "Cocoa", price: 500, desc: "Rich cocoa dusted perfection.", careInstructions: "Keep refrigerated. Consume within 2 days.", shippingInfo: chilledShipping },
-    { slug: "matcha-tiramisu", name: "Matcha", price: 590, desc: "Earthy, premium matcha layers.", careInstructions: "Keep refrigerated. Consume within 2 days.", shippingInfo: chilledShipping }
+    { slug: "classic-tiramisu", name: "Classic Affair", price: 500, desc: "Authentic espresso-soaked ladyfingers.", careInstructions: "Keep refrigerated. Consume within 2 days.", shippingInfo: chilledShipping },
+    { slug: "biscoff-tiramisu", name: "After Hours", price: 590, desc: "Biscoff layered tiramisu.", careInstructions: "Keep refrigerated. Consume within 2 days.", shippingInfo: chilledShipping }
   ],
   seasonal: [
     { slug: "mango-cheesecake", name: "Mango Cheesecake", price: 590, desc: "Fresh seasonal mangoes.", careInstructions: "Keep refrigerated. Consume within 2 days.", shippingInfo: chilledShipping },
