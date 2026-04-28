@@ -44,7 +44,7 @@ export default function Home() {
             >
               <img 
                 src="/cookie2.jpg" 
-                alt="Thick gooey chocolate chip cookie breaking apart" 
+                alt="cookie2" 
                 className="object-cover w-full h-full object-center"
                 referrerPolicy="no-referrer"
               />
