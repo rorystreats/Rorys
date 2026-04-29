@@ -94,8 +94,7 @@ export const menu: Record<string, MenuItem[]> = {
   ],
   tins: [
     { slug: "classic-tiramisu-tin", name: "Classic Tiramisu Tin", price: 1399, desc: "Family-sized classic tiramisu.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping, image: "/tiramisutin.jpg" },
-    { slug: "classic-cheesecake-tin", name: "Classic Cheesecake Tin", price: 1199, desc: "Rich, creamy cheesecake for sharing.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping, image: "/cheesecaketin.jpg" },
-    { slug: "tiramisu-cheesecake-tin", name: "Tiramisu Cheesecake Tin", price: 1599, desc: "The ultimate dessert fusion.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping, image: "/tctin.jpg" }
+    { slug: "classic-cheesecake-tin", name: "Classic Cheesecake Tin", price: 1199, desc: "Rich, creamy cheesecake for sharing.", careInstructions: "Keep refrigerated. Consume within 3 days.", shippingInfo: chilledShipping, image: "/cheesecaketin.jpg" }
   ],
   festive: [
     { slug: "cashew-hazelnut-truffle", name: "Cashew Hazelnut Truffle", price: "Custom", desc: "Thick cashew cocoa fudge, stuffed with hazelnut cream, topped with milk chocolate, gold flake, and rolled in cashew bits.", careInstructions: "Store in a cool, dry place.", shippingInfo: "Available for bulk orders across Pune. We promise it's worth the wait!" }
