@@ -90,7 +90,7 @@ export const menu: Record<string, MenuItem[]> = {
     },
     {
       slug: "pistachio",
-      name: "Pistachio",
+      name: "The Green Flag",
       price: 420,
       desc: "A rich, nutty pistachio dough packed with crunchy roasted pistachios, white chocolate and milk chocolate.",
       careTitle: "Cookie survival guide",
