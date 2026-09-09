@@ -89,6 +89,16 @@ export const menu: Record<string, MenuItem[]> = {
       gallery: ["/dubai1.jpg.png", "/dubai2.jpg.png", "/dubai3.jpg.png", "/dubai4.jpg.png"]
     },
     {
+      slug: "pistachio",
+      name: "Pistachio",
+      price: 420,
+      desc: "A rich, nutty pistachio dough packed with crunchy roasted pistachios, white chocolate and milk chocolate.",
+      careTitle: "Cookie survival guide",
+      careInstructions: cookieCare,
+      shippingInfo: standardShipping,
+      gallery: ["/pista.jpg", "/pista1.jpg", "/pista2.jpg", "/pista3.jpg"]
+    },
+    {
       slug: "ultimate-cookie-box",
       name: "Ultimate Box of 5",
       price: 1290,
