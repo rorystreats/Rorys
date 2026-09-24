@@ -79,6 +79,16 @@ export const menu: Record<string, MenuItem[]> = {
       gallery: ["/biscoff.jpg", "/biscoff2.jpg", "/bisoff3.jpg"]
     },
     {
+      slug: "pistachio",
+      name: "The Green Flag",
+      price: 470,
+      desc: "A soft vanilla cookie loaded with white chocolate chunks, milk chocolate chunks, and pistachios for a creamy, nutty flavor.",
+      careTitle: "Cookie survival guide",
+      careInstructions: cookieCare,
+      shippingInfo: standardShipping,
+      gallery: ["/pista.jpg", "/pista1.jpg", "/pista2.jpg", "/pista3.jpg"]
+    },
+    {
       slug: "trust-fund-behavior",
       name: "Trust Fund Behavior",
       price: 490,
@@ -87,16 +97,6 @@ export const menu: Record<string, MenuItem[]> = {
       careInstructions: cookieCare,
       shippingInfo: standardShipping,
       gallery: ["/dubai1.jpg.png", "/dubai2.jpg.png", "/dubai3.jpg.png", "/dubai4.jpg.png"]
-    },
-    {
-      slug: "pistachio",
-      name: "The Green Flag",
-      price: 420,
-      desc: "A soft vanilla cookie loaded with white chocolate chunks, milk chocolate chunks, and pistachios for a creamy, nutty flavor.",
-      careTitle: "Cookie survival guide",
-      careInstructions: cookieCare,
-      shippingInfo: standardShipping,
-      gallery: ["/pista.jpg", "/pista1.jpg", "/pista2.jpg", "/pista3.jpg"]
     },
     {
       slug: "ultimate-cookie-box",
