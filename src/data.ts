@@ -71,7 +71,7 @@ export const menu: Record<string, MenuItem[]> = {
     {
       slug: "pistachio",
       name: "The Green Flag",
-      price: 470,
+      price: 490,
       desc: "A soft vanilla cookie loaded with white chocolate chunks, milk chocolate chunks, and pistachios for a creamy, nutty flavor.",
       careTitle: "Cookie survival guide",
       careInstructions: cookieCare,
