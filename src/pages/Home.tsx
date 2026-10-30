@@ -96,7 +96,7 @@ export default function Home() {
               </Link>
             </div>
             <p className="text-xs uppercase tracking-widest text-[#6B1111]/60 mt-8">
-              * Cloud Kitchen in Pune • New Cookie Flavour Every Month
+               Cloud Kitchen in Baner, Pune
             </p>
           </motion.div>
         </div>
