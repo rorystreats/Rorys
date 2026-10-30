@@ -47,16 +47,6 @@ export const menu: Record<string, MenuItem[]> = {
       gallery: ["/triple.jpg", "/triple1.jpg", "/triple2.jpg", "/triple3.jpg"]
     },
     { 
-      slug: "walnut-chocolate-chip", 
-      name: "Family Legacy", 
-      price: 420, 
-      desc: "A classic cookie dough loaded with dark chocolate chips, dark chocolate chunks, and crunchy walnuts.",
-      careTitle: "Cookie survival guide",
-      careInstructions: cookieCare,
-      shippingInfo: standardShipping,
-      gallery: ["/walnut.jpg", "/walnut1.jpg", "/walnut2.jpg", "/walnut3.jpg"]
-    },
-    { 
       slug: "the-hazelnut-molten-core", 
       name: "The Godfather", 
       price: 470, 
@@ -106,7 +96,7 @@ export const menu: Record<string, MenuItem[]> = {
       careTitle: "Cookie survival guide",
       careInstructions: cookieCare,
       shippingInfo: standardShipping,
-      gallery: ["/double.jpg", "/triple.jpg", "/walnut.jpg", "/hazelnut.jpg", "/biscoff.jpg"]
+      gallery: ["/double.jpg", "/triple.jpg", "/pista.jpg", "/hazelnut.jpg", "/biscoff.jpg"]
     },
   ],
   tiramisu: [
