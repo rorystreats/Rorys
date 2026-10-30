@@ -165,7 +165,11 @@ export default function Home() {
               <Clock className="mx-auto text-[#6B1111] mb-6" size={32} strokeWidth={1.5} />
               <h3 className="font-serif text-xl mb-3">The Art Of Ordering</h3>
               <p className="text-[#2C1818]/70 text-sm leading-relaxed">
-              01. Pick your Choice. 02. Add to cart. 03. Checkput and Pay on Whatsapp. 4. Give us 24 hours to bake your treats fresh. 05. Let the indulgence begin.  
+              01. Browse our menu and pick your favourites. 
+              02. Add to cart 
+              03. Checkout and Pay on Whatsapp
+              04. Give us 24 hours to bake your treats fresh 
+              05. Let the indulgence begin.  
             </p>
             </div>
 
