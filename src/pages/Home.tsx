@@ -165,8 +165,7 @@ export default function Home() {
               <Clock className="mx-auto text-[#6B1111] mb-6" size={32} strokeWidth={1.5} />
               <h3 className="font-serif text-xl mb-3">Drop of the Month</h3>
               <p className="text-[#2C1818]/70 text-sm leading-relaxed">
-                A Secret edition Cookie alongside our regular menu is available each month. See us to get your hands on it, not everyone gets that! Pre-order 24 hours in advance as our goods are baked to order.
-              </p>
+              Every month, one cookie. One secret. And not everyone gets to know. 🤫 Our Secret Edition is here for a limited time, and we’re not telling just anyone. Text us on WhatsApp to discover this month’s secret. Just don’t wait too long. You might miss it. Baked fresh to order. Pre-order 24 hours in advance.              </p>
             </div>
 
             {/* Rule 2: Delivery & Pickup */}
