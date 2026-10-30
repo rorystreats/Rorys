@@ -40,7 +40,7 @@ export default function Home() {
         >
           {[...Array(10)].map((_, i) => (
             <span key={i} className="text-sm font-medium tracking-wider uppercase flex items-center gap-8">
-              Happy Diwali! Assorted Cookie Box & Celebration Items Available Now <span className="text-[#FDFBF7]/50 text-xl leading-none">&bull;</span>
+              Happy Diwali! Ultimate Box & Celebration Items Available Now <span className="text-[#FDFBF7]/50 text-xl leading-none">&bull;</span>
             </span>
           ))}
         </motion.div>
