@@ -19,9 +19,9 @@ export interface MenuItem {
 
 const cookieCare = "They're perfectly happy chilling on your counter for 5 days or in the fridge for 10, but let's be honest you're just going to microwave it for 10 seconds and devour the gooey goodness right now.";
 
-const standardShipping = "Delivering across Pune & PCMC on weekends. Please pre-order 48 hours in advance. Pickups available from Baner or Prabhat Road.";
+const standardShipping = "Delivering across Pune & PCMC on weekends. Please pre-order 48 hours in advance. Pickups available from Baner.";
 
-const chilledShipping = "Delivered perfectly chilled across Pune & PCMC on weekends. Please pre-order 48 hours in advance. Pickups available from Baner or Prabhat Road.";
+const chilledShipping = "Delivered perfectly chilled across Pune & PCMC on weekends. Please pre-order 48 hours in advance. Pickups available from Baner.";
 
 export const menu: Record<string, MenuItem[]> = {
   cookies: [
