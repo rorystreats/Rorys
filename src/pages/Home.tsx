@@ -176,7 +176,7 @@ export default function Home() {
             {/* Rule 2: Delivery & Pickup */}
             <div className="bg-[#F5EFE6] p-8 rounded-2xl text-center border border-[#6B1111]/10 hover:border-[#6B1111]/30 transition-colors">
               <Truck className="mx-auto text-[#6B1111] mb-6" size={32} strokeWidth={1.5} />
-              <h3 className="font-serif text-xl mb-3">Delivery & Pickup</h3>
+              <h3 className="font-serif text-xl mb-3">How Will The Goods Reach You?</h3>
               <p className="text-[#2C1818]/70 text-sm leading-relaxed">
                 We deliver across Pune and PCMC, or you can pick up your order directly from Baner.
               </p>
