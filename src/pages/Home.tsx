@@ -165,7 +165,7 @@ export default function Home() {
               <Clock className="mx-auto text-[#6B1111] mb-6" size={32} strokeWidth={1.5} />
               <h3 className="font-serif text-xl mb-3">Drop of the Month</h3>
               <p className="text-[#2C1818]/70 text-sm leading-relaxed">
-                New flavour launched every month. A limited edition available alongside our regular menu. Pre-order of 48 hours in advance is a must because everything is made fresh.
+                A Secret edition Cookie alongside our regular menu is available each month. See us to get your hands on it, not everyone gets that! Pre-order 24 hours in advance as our goods are baked to order.
               </p>
             </div>
 
