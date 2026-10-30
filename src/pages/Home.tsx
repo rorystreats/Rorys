@@ -32,7 +32,7 @@ export default function Home() {
       className="pt-20"
     >
       {/* Announcement Banner */}
-        <Link to="/product/trust-fund-behavior" className="bg-[#6B1111] text-[#FDFBF7] py-2.5 overflow-hidden flex whitespace-nowrap block hover:bg-[#5a0f0f] transition-colors cursor-pointer">
+      <Link to="/menu/celebrations" className="bg-[#6B1111] text-[#FDFBF7] py-2.5 overflow-hidden flex whitespace-nowrap block hover:bg-[#5a0f0f] transition-colors cursor-pointer">
         <motion.div 
           animate={{ x: ["0%", "-50%"] }}
           transition={{ ease: "linear", duration: 80, repeat: Infinity }}
@@ -40,12 +40,12 @@ export default function Home() {
         >
           {[...Array(10)].map((_, i) => (
             <span key={i} className="text-sm font-medium tracking-wider uppercase flex items-center gap-8">
-              Flavor of the Month: Trust Fund Behavior is here! <span className="text-[#FDFBF7]/50 text-xl leading-none">&bull;</span>
+              Happy Diwali! Assorted Cookie Box & Celebration Items Available Now <span className="text-[#FDFBF7]/50 text-xl leading-none">&bull;</span>
             </span>
           ))}
         </motion.div>
       </Link>
-
+      
       {/* Hero Section */}
       <section className="relative pt-12 pb-20 lg:pt-20 lg:pb-24 overflow-hidden">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
