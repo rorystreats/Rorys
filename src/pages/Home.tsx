@@ -163,9 +163,9 @@ export default function Home() {
             {/* Rule 1: Timing */}
             <div className="bg-[#F5EFE6] p-8 rounded-2xl text-center border border-[#6B1111]/10 hover:border-[#6B1111]/30 transition-colors">
               <Clock className="mx-auto text-[#6B1111] mb-6" size={32} strokeWidth={1.5} />
-              <h3 className="font-serif text-xl mb-3">Secret Society</h3>
+              <h3 className="font-serif text-xl mb-3">The Art Of Ordering</h3>
               <p className="text-[#2C1818]/70 text-sm leading-relaxed">
-              Every month, one cookie. One secret. And not everyone gets to know. Our Secret Edition is here for a limited time, and we’re not telling just anyone. Text us on WhatsApp to discover this month’s secret. Just don’t wait too long.  
+              01. Pick your Choice. 02. Add to cart. 03. Checkput and Pay on Whatsapp. 4. Give us 24 hours to bake your treats fresh. 05. Let the indulgence begin.  
             </p>
             </div>
 
